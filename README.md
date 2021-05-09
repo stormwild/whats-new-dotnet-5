@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alex-wolf-ps/whats-new-dotnet-5)
+
 # whats-new-dotnet-5
 
 Note: Module 02 is the first module in the course after the intro video, which is technically module 1. 
