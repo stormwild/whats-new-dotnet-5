@@ -62,11 +62,11 @@
 
     void SubmitForm()
     {
-        BlazoredModal.Close(ModalResult.Ok(Extras));
+        BlazoredModal.CloseAsync(ModalResult.Ok(Extras));
     }
 
     void Cancel()
     {
-        BlazoredModal.Cancel();
+        BlazoredModal.CancelAsync();
     }
 }

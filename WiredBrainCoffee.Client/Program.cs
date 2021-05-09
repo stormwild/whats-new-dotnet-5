@@ -36,13 +36,7 @@ namespace WiredBrainCoffee.Client
             builder.Services.AddHttpClient<IContactService, ContactService>(client =>
                 client.BaseAddress = new Uri("https://localhost:3001/"));
 
-            var host = builder.Build();
-
-            host.Services
-              .UseBootstrapProviders()
-              .UseFontAwesomeIcons();
-
-            await host.RunAsync();
+            await builder.Build().RunAsync();
         }
     }
 }
